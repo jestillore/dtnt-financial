@@ -1,0 +1,11 @@
+site_name: Talentemp Financial
+nav:
+  - DigitalTolk: index.md
+  - Talentemp:
+    - Pricelist and Rules: tnt.md
+    - Pricelist Rule Conditions: conditions.md
+  - Playground:
+    - Common Flows: playground.md
+    - Addita Age Factor: addita.md
+  - To Do: todo.md
+theme: material
