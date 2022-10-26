@@ -34,7 +34,7 @@ Here's an overview of what a pricelist rule will look like:
 A name is a description of the rule. In this example, we are creating a rule on how we charge and pay our talents when the booking falls on a weekday, and it's daytime.
 
 #### Group
-I will explain this in [Playground](/playground/#the-charging-group-flow).
+I will explain this in [Playground](/playground/#the-weekend-or-minor-holiday-flow).
 
 #### Charging Type
 Currently, we have 3 different charging type. `Currency`, `Currency Base Deduction` (I will need a better name for this soon), and `Percentage`

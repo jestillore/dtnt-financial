@@ -196,4 +196,24 @@ And then we apply this rule to [Service Question Answers](/conditions/#service-q
 
 ***
 
-## The Charging Group Flow
+## The Weekend or Minor Holiday Flow
+In this flow we will avoid duplication of charges from similar pricelist rules. The way we can accomplish that is by using the [Pricelist Rule Group](/tnt/#group).
+
+The scenario would be that:
+
+- If the booking falls on a minor holiday, we will give the talent a bonus of `250kr` one time.
+- If the booking falls on a weekend, we will give the talent a bonus of `200kr` one time.
+
+Now, it's easy, we create one rule for the minor holiday and we create one rule for the weekend.
+
+But what happens if the booking falls on a weekend that is also a minor holiday? Correct! It will create two charges. But we don't want that, do we?
+
+This is where [Pricelist Rule Group](/tnt/#group) comes into play. [Pricelist Rule Group](/tnt/#group) that only one of its member rules will be charged (whichever is highest among them).
+
+While creating two rules described above is correct, we also have to group into one to make sure that we will not be charged twice.
+
+First, create a new `Pricelist Rule Group` and name it `Weekend or Minor Holiday Group`.
+
+Next, create a rule for the minor holiday and make it a member of the `Weekend or Minor Holiday Group`.
+
+And then, create another rule for the weekend and make it a member of the same group.
