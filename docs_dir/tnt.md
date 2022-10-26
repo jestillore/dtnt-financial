@@ -44,13 +44,13 @@ We will pick `Currency` if we charge the customer or pay the talent a specific a
 
 ##### Currency Base Deduction
 I will actually need a better name for this soon. But let me just described this for now.
-A currency base deduction is an implementation of the age-formula requested on Addita.
+A currency base deduction is an implementation of the age-formula requested by Addita.
 
 Let's say that the customer wants to pay for `350kr` per hour during weekday daytime. To calculate the highest amount Addita will pay the talent, we have to ensure `30%` profit first. The remaining amount will be subtracted with the vacation payment and social expenses.
 
 All in all, that leaves us with `166kr` per hour for our highest paid talents. Now, our `base currency` is `166kr`. Next, we define what will be the deduction for this rule. Please take a look at [Salary Rate](#salary-rate)
 
-To better understand the deduction, here's an except from the Addita age-formula document.
+To better understand the deduction, here's an excerpt from the Addita age-formula document.
 
 <img src="https://gitlab.digitaltolk.com/ejillberth/dt-tnt-financial/-/raw/main/addita-age-formula.png" alt="Region Halland Pricelist" />
 

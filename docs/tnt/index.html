@@ -892,10 +892,10 @@
 <p>We will pick <code>Currency</code> if we charge the customer or pay the talent a specific amount. Let's say, during weekday daytime, I will charge the customer <code>200kr</code> and pay the talent <code>100kr</code> per hour.</p>
 <h5 id="currency-base-deduction">Currency Base Deduction</h5>
 <p>I will actually need a better name for this soon. But let me just described this for now.
-A currency base deduction is an implementation of the age-formula requested on Addita.</p>
+A currency base deduction is an implementation of the age-formula requested by Addita.</p>
 <p>Let's say that the customer wants to pay for <code>350kr</code> per hour during weekday daytime. To calculate the highest amount Addita will pay the talent, we have to ensure <code>30%</code> profit first. The remaining amount will be subtracted with the vacation payment and social expenses.</p>
 <p>All in all, that leaves us with <code>166kr</code> per hour for our highest paid talents. Now, our <code>base currency</code> is <code>166kr</code>. Next, we define what will be the deduction for this rule. Please take a look at <a href="#salary-rate">Salary Rate</a></p>
-<p>To better understand the deduction, here's an except from the Addita age-formula document.</p>
+<p>To better understand the deduction, here's an excerpt from the Addita age-formula document.</p>
 <p><img src="https://gitlab.digitaltolk.com/ejillberth/dt-tnt-financial/-/raw/main/addita-age-formula.png" alt="Region Halland Pricelist" /></p>
 <blockquote>
 <p>This charging type is only for salary. So when this is selected for the rule, the invoice charging type will be automatically considered as <a href="#currency">Currency</a> and the amount will be taken from <a href="#invoice-rate">Invoice Rate</a> or from the booking itself if specified.</p>
