@@ -19,3 +19,6 @@ Decide how holiday groups will be structured and how it can be shared among cust
 
 ## Age Group
 Decide how to calculate the age. Is it the actual age or based solely on year of birth.
+
+## Import Pricelist
+Importing or copying pricelist from other customers or other service.
