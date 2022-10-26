@@ -1,4 +1,6 @@
 site_name: Talentemp Financial
+docs_dir: docs_dir
+site_dir: docs
 nav:
   - DigitalTolk: index.md
   - Talentemp:
