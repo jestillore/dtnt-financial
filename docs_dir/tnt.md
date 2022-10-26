@@ -34,7 +34,7 @@ Here's an overview of what a pricelist rule will look like:
 A name is a description of the rule. In this example, we are creating a rule on how we charge and pay our talents when the booking falls on a weekday, and it's daytime.
 
 #### Group
-I will explain this in [Playground](/playground/#the-weekend-or-minor-holiday-flow).
+I will explain this in [Playground](playground/#the-weekend-or-minor-holiday-flow).
 
 #### Charging Type
 Currently, we have 3 different charging type. `Currency`, `Currency Base Deduction` (I will need a better name for this soon), and `Percentage`
@@ -92,7 +92,7 @@ So if we pick range, we are going to create at least 3 rules for the scenario I 
 | [Currency](#currency) | [Session Time](#session-time) | [Range](#range)    | 31-60             | 0              | 150          |
 | [Currency](#currency) | [Session Time](#session-time) | [Interval](#range) | 0-5               | 60             | 30           |
 
-More information on how to assemble this will be described in the [Playground](/playground).
+More information on how to assemble this will be described in the [Playground](playground).
 
 #### Time Calculation
 When charging frequency is set to [Interval](#interval) or [Range](#range), we also have to tell the rule which time are we going to calculate it from. Or how much time we have to apply for this rule.

@@ -74,7 +74,7 @@ The rule can also be linked to a specific holiday condition, like `Easter Egg Bo
 
 <img src="https://gitlab.digitaltolk.com/ejillberth/dt-tnt-financial/-/raw/main/age-condition.png" alt="Region Halland Pricelist" />
 
-Together with [Currency Base Deduction](/tnt/#currency-base-deduction), we apply that rule to certain age groups conditions.
+Together with [Currency Base Deduction](tnt/#currency-base-deduction), we apply that rule to certain age groups conditions.
 
 Let's say we want to give people who are 65 years old and above a higher pay, then we create a rule with a higher salary rate and apply it to age group `65 to 100`.
 
