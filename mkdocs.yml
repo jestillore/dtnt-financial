@@ -11,3 +11,6 @@ nav:
     - Addita Age Factor: addita.md
   - To Do: todo.md
 theme: material
+extra_javascript:
+  - https://blueimp.github.io/JavaScript-MD5/js/md5.js
+  - javascripts/password.js
